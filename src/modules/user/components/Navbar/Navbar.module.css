@@ -7,7 +7,7 @@
   align-items: center;
   min-height: 74px;
   padding: 6px 34px;
-  color: black;
+  color: white;
   transition: color 0.2s ease-out;
   z-index: 99999999999;
 }
