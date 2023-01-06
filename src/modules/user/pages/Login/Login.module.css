@@ -1,0 +1,45 @@
+.loginContainer {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 4rem;
+  font-size: 1.6rem;
+  border-radius: 6px;
+}
+
+.loginContainer h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.loginContainer > span {
+  color: red;
+  text-align: center;
+}
+
+.loginContainer input {
+  margin-top: 1rem;
+  border: #ccc;
+  background: #fff;
+  width: 31rem;
+  height: 4rem;
+  padding: 0rem 1rem;
+  font-size: 1.6rem;
+}
+
+.loginContainer button {
+  background: #1212e6;
+  color: #fff;
+  padding: 1rem 0;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loginContainer button:hover {
+  background: #070793;
+}

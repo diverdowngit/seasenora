@@ -1,0 +1,31 @@
+.container {
+  padding: 14rem 1.6rem;
+  color: #333;
+  background-color: whitesmoke;
+}
+
+.wrapper {
+  composes: container from '../../../../../../styles/layout.module.css';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper > .heading {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.popularPlacesList {
+  padding: 8rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 600px){
+  .popularPlacesList{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+  }

@@ -1,0 +1,52 @@
+.carddesign {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  color: whitesmoke;
+}
+
+.carddesign img {
+  object-fit: cover;
+  filter: brightness(0.7);
+  object-position: center;
+  background:black;
+  width: 420px;
+  height: 580px;
+  transition: all .2s ease-in-out; 
+}
+.carddesign .carddesc {
+  position: absolute;
+  top: 50%;
+ left: 50%;
+transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.carddesign{
+  background: black;
+}
+
+.carddesign:hover img{
+opacity: 0.4;
+
+}
+
+
+img:hover + .carddesc{
+    visibility: visible;
+}
+.carddesc p{
+  font-size: 20px;
+ /* letter-spacing: 2px; */
+
+  text-align: center;
+}
+.heading h2 {
+    margin: auto;
+    text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}

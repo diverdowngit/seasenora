@@ -1,0 +1,53 @@
+.container {
+  padding: 14rem 1.6rem;
+  color: #333;
+}
+
+.wrapper {
+  composes: container from '../../../../../../styles/layout.module.css';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.owners{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
+}
+.faq{
+  
+  width: 80%;
+  margin: auto;
+}
+
+.aboutWrapper {
+  display: flex;
+  gap: 4rem;
+  /* margin-bottom: 50px; */
+}
+.aboutWrapper img{
+  width: 100%;
+  height: 500px;
+}
+.aboutText { 
+  font-family: 'luminari', cursive;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  text-align: justify;
+}
+
+.aboutText h1 {
+  color: rgb(108, 106, 106);
+  letter-spacing: 1.2px;
+}
+@media (max-width: 600px){
+  .aboutWrapper{
+    flex-direction: column;
+  }
+}
+

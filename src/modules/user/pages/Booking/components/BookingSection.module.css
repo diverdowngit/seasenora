@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bigelow+Rules&family=Catamaran:wght@400;500&family=Kanit:wght@300&family=Lato:wght@300&family=Maven+Pro&family=Mulish&family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@200;300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro&family=Work+Sans:wght@400;500&display=swap');
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 14rem 1.6rem;
+  color: #333;
+}
+.wrapper {
+  composes: container from '../../../../../styles/layout.module.css';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.bookingwrapper{
+    display: flex;
+    gap: 4rem;
+}
+.bookingwrapper img{
+  width: 100%;
+  height: 420px;
+}
+
+.aboutText {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
+.aboutCards {
+  font-size: 1.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.explorewrapper button,a{
+ width: 30%;
+ text-align: center;
+}
+
+.explorewrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E3E8F0;
+  padding: 20px 40px 20px 40px;
+}
+.staywrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E3E8F0;
+  padding: 20px 40px 20px 40px;
+}
+
+.staywrapper a {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px 10px 14px;
+}
+.explorewrapper button{
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px 10px 14px;
+}
+
+.aboutCards a,button{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1em;
+
+}
+p {
+  font-family: 'Mulish', sans-serif;
+  font-weight:400;
+ text-align: justify;
+}
+@media (max-width: 600px){
+  .bookingwrapper{
+    flex-direction: column;
+  }
+
+  .buttontext{
+    font-size: .5em;
+    padding: 0px 0px 0px 0px
+  }
+
+  .staywrapper a {
+    padding: 0px 0px 0px 0px
+  }
+}

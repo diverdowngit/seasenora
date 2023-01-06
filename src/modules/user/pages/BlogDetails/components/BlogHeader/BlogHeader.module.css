@@ -1,0 +1,46 @@
+.heroWrapper {
+  height: 50vh;
+  width: 100%;
+}
+
+.pageHero {
+  position: relative;
+  height: 100%;
+}
+
+.pageHero img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -99999;
+  filter: brightness(0.6);
+}
+
+.blogMetaContainer {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.blogMetaContainer h1 {
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.blogMetaContainer h2 {
+  font-size: 3rem;
+  letter-spacing: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}

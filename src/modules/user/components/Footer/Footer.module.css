@@ -1,0 +1,86 @@
+.container {
+  padding: 1.6rem;
+   background-color: #003B73; 
+  color: whitesmoke;
+  
+  opacity: 90%;
+}
+
+.wrapper {
+  composes: container from '../../../../styles/layout.module.css';
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.brand {
+  max-width: 33.6rem;
+}
+
+.brand .brandDescription {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+.logo {
+  font-size: 3rem;
+}
+.logo img{
+  position: relative;
+  width: 120px;
+  height: 100px;
+}
+.socialTitle {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+.social a {
+  color: #fff;
+}
+.social a:hover{
+  color: #1e90ff;
+}
+.social svg {
+  height: 24px;
+  width: 24px;
+}
+
+.copyRights {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+
+
+@media (max-width: 600px){
+  .container{
+    text-align: center;
+  }
+  .wrapper{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .socialTitle{
+    visibility: hidden;
+  }
+  .social{
+    justify-content: center;
+  }
+  .brand{
+    
+    width: 80%;
+    margin: auto;
+  }
+  
+  .logo{
+    text-align: center;
+  }
+}

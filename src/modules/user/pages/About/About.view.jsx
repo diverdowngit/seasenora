@@ -1,0 +1,14 @@
+import React from 'react';
+
+import Layout from '../../components/Layout/Layout';
+import Hero from '../Home/components/Hero/Hero';
+import AboutSection from './components/AboutSection/AboutSection';
+
+export default function AboutView() {
+  return (
+    <Layout>
+       <Hero img="/img/aboutTravel1.jpg" centerText="Our Passion For Travel Is The Foundation Of Sv Sea Senora." subheading="Our Traveles  Take You With Us Off-the-beaten-path To Hidden Gems." location="About Us Page "/>
+      <AboutSection />
+    </Layout>
+  );
+}

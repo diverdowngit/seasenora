@@ -1,0 +1,35 @@
+.container {
+  min-height: 64px;
+  background: #090979;
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft,
+.navRight {
+  padding: 0 4rem;
+}
+
+.navRight {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLeft h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.navRight button {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  background-color: whitesmoke;
+  color: #000;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
