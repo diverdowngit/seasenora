@@ -8,6 +8,7 @@ import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import PhotoGallery from './components/PhotoGallery/PhotoGallery';
 import SummerCards from './components/SummerCards/SummerCards';
 import VideoHome from './components/VideoHome/VideoHome';
+import Footer from '../../components/Footer/Footer';
 
 
 export default function HomePageView() {
@@ -37,6 +38,8 @@ export default function HomePageView() {
       {/* <LatestBlog data={blogList}/>
       <PhotoGallery /> */}
       {/* <SummerCards /> */}
+      <Footer />
     </Layout>
+
   );
 }
