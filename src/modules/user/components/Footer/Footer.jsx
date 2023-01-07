@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineInstagram, AiOutlineTwitter,AiOutlineYoutube } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import Logo from '../../../../assets/Logo.png';
 import styles from './Footer.module.css';
 import classnames from 'classnames';
-import { Link } from 'react-router-dom';
+
 
 export default function Footer() {
   return (

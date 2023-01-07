@@ -104,14 +104,14 @@ export default function Navbar() {
           
 {/* <button className={styles.btnsearch}>  <AiOutlineSearch/>
 </button>  */}
-  <input id="inputtext" type="text" className={styles.inputSearch} placeholder="Type to Search..."
+  {/* <input id="inputtext" type="text" className={styles.inputSearch} placeholder="Type to Search..."
     onChange={searchHandle}
   />
   <div id="disable">
   {result && result.map((suggestion,i) =>
   <div id="selectbox" className={styles.suggestiontext} onClick={event => handleClick(event, suggestion._id)} key={i}>{suggestion.location} </div>
   )}
-  </div>
+  </div> */}
   {/* <select value={selectedValue} id='selectBox' onChange={changeFun} className={styles.suggestion} >
     <option >{'Please select'}</option>
       {result.map((item, index) => (

@@ -11,7 +11,7 @@ import VideoHome from './components/VideoHome/VideoHome';
 
 
 
-export default function HomePageView() {
+export default function HomePageView({ children }) {
 
   const [blogList, setBlogList] = React.useState([]);
 
