@@ -9,7 +9,7 @@ import classnames from 'classnames';
 
 export default function Footer() {
   return (
-    <div className={styles.container}color="blue">
+    <div className={styles.container}>
       <div className={styles.wrapper}>
     
         <div className={styles.brand}>
