@@ -21,9 +21,9 @@ export default function Footer() {
         <div className={styles.socials}>
           <div className={styles.socialTitle}>social</div>
           <div className={styles.social}>
-          <a href="https://www.instagram.com/svseasenora/"target="_blank" rel="noreferrer" ><AiOutlineInstagram /></a>
-            <a href="https://www.youtube.com/channel/UCpaA07tlk3PA44WApp8oKDw"target="_blank" rel="noreferrer" ><AiOutlineYoutube /></a> 
-            <a href="https://www.facebook.com/profile.php?id=100085674495009" target="_blank" rel="noreferrer" ><FaFacebookF /></a>
+          <a href="https://www.instagram.com/svseasenora/"target="_blank"rel="noopener noreferrer"  ><AiOutlineInstagram /></a>
+            <a href="https://www.youtube.com/channel/UCpaA07tlk3PA44WApp8oKDw"target="_blank" rel="noopener noreferrer"  ><AiOutlineYoutube /></a> 
+            <a href="https://www.facebook.com/profile.php?id=100085674495009" target="_blank" rel="noopener noreferrer" ><FaFacebookF /></a>
           </div>
           <div>Copyright © 2022 - {new Date().getFullYear()} SV Sea Senora</div>
           {/* <div className={styles.copyRights}>
