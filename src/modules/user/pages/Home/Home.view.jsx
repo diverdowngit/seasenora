@@ -8,6 +8,8 @@ import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import PhotoGallery from './components/PhotoGallery/PhotoGallery';
 import SummerCards from './components/SummerCards/SummerCards';
 import VideoHome from './components/VideoHome/VideoHome';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 
 
@@ -30,7 +32,8 @@ export default function HomePageView({ children }) {
   }
 
   return (
-    <Layout>
+    <Layout >
+      <Navbar/>
       <Hero img="/img/heroimage.jpg" centerText="Welcome to SV Sea Senora " location="WorldWide."font-family=" 'Luminari', sans-serif;"/>
       {/* <VideoHome centerText="Plan Your Next Adventure" location="Parisian Bridge, Paris, France" /> */}
       <EWV />
@@ -38,7 +41,7 @@ export default function HomePageView({ children }) {
       {/* <LatestBlog data={blogList}/>
       <PhotoGallery /> */}
       {/* <SummerCards /> */}
-     
+     <Footer/>
     </Layout>
 
   );
