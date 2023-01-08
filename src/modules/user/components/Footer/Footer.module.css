@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-  composes: container from '../../../../styles/layout.module.css';
+  /* composes: container from '../../../../styles/layout.module.css'; */
   display: flex;
   justify-content: space-between;
  

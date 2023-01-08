@@ -36,7 +36,7 @@ export default function HomePageView({ children }) {
      
       <Hero img="/img/heroimage.jpg" centerText="Welcome to SV Sea Senora " location="WorldWide."font-family=" 'Luminari', sans-serif;"/>
       {/* <VideoHome centerText="Plan Your Next Adventure" location="Parisian Bridge, Paris, France" /> */}
-      <EWV />
+      {/* <EWV /> */}
       {/* <PopularPlaces /> */}
       {/* <LatestBlog data={blogList}/>
       <PhotoGallery /> */}
