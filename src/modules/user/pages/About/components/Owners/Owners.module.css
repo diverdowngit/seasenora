@@ -55,9 +55,10 @@
     font-size: 1.8rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 5rem;
   align-items: center;
   text-align: justify;
+  font-family: 'luminari', sans-serif;
 }
 @media (max-width: 600px){
   .alignImages{
