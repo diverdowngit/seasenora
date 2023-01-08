@@ -4,7 +4,6 @@ import { AiOutlineInstagram, AiOutlineTwitter,AiOutlineYoutube } from 'react-ico
 import { FaFacebookF } from 'react-icons/fa';
 import Logo from '../../../../assets/Logo.png';
 import styles from './Footer.module.css';
-import classnames from 'classnames';
 
 
 export default function Footer() {
