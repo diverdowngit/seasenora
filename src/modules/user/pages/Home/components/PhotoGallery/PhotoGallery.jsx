@@ -3,9 +3,11 @@ import styles from './PhotoGallery.module.css';
 import classnames from 'classnames';
 
 import Navbar from "../../../../components/Navbar/Navbar";
+import Layout from "../../../../components/Layout/Layout";
 export default function PhotoGallery() {
     return (  
-      <><Navbar /><div className={styles.container}>
+      <Layout>
+     <div className={styles.container}>
         <div className={styles.wrapper}>
           <h2 className={styles.headingGrid}>Photo Gallery</h2>
           <div className={styles.containerimg}>
@@ -20,8 +22,8 @@ export default function PhotoGallery() {
           </div>
         </div>
         {/* <div className={styles.doodle}><img src="https://pixabay.com/de/photos/embudu-insel-urlaub-meer-ozean-4026462/"></img></div>  */}
-      </div></>
+      </div>
       
-      
+      </Layout>
     );
 }
