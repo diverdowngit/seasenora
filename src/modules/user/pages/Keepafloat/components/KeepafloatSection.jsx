@@ -2,9 +2,9 @@ import React from 'react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-import styles from './BookingSection.module.css';
+import styles from './KeepafloatSection.module.css';
 
-export default function BookingSection() {
+export default function KeepafloatSection() {
   return (
     <div className={styles.container}>
   

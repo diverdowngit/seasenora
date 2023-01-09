@@ -89,7 +89,7 @@ export default function Navbar() {
               <Link to='/about'>about</Link>
             </li>
             <li className={styles.menuitem}>
-              <Link to='/booking'>Keep afloat</Link>
+              <Link to='/keepafloat'>Keep afloat</Link>
             </li>
           </ul>
           </div>
