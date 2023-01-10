@@ -33,7 +33,7 @@
   height: 500px;
 }
 .aboutText { 
-  font-family: 'luminari', cursive;
+  font-family: 'luminari', sans-serif;
   font-size: 1.8rem;
   display: flex;
   flex-direction: column;

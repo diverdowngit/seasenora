@@ -15,14 +15,18 @@ export default function EWV() {
            limitless kindness and harsh realities.
           </div>
           <div className={styles.story}>
-          We travel to enquire, hear stories, and be awestruck by incredible scenery.
-           To witness the ingenuity and defiance of individuals and the remarkable output of their cooperation. 
-           To be humbled by the history of yesterday, 
-          informed about the politics of today, and excited by the possibilities of tomorrow.
+          We believe that sailing is a wonderful way (for families) to bond, explore and create unforgettable memories together. 
           </div>
           <div className={styles.story}>
-          We travel to have fun. The moments that moved us, the characters we encountered, and the stage upon which it is all set. 
-          It’s a big wide world out there, come see it with us.
+          We travel to enquire, hear stories, and be awestruck by incredible scenery.
+           
+           To be humbled by the history of yesterday, 
+           and excited by the possibilities of tomorrow.
+           Our videos feature breathtaking footage of some of the most beautiful sailing locations around the world. Whether you're a seasoned sailor, just getting started or just want to enjoy, our content is designed to inspire and educate.
+          </div>
+          <div className={styles.story}>
+        The moments that moved us, the characters we encountered, and the stage upon which it is all set. 
+          It’s a big wide world out there. Come and sail it with us.
           </div>
         </div>
       </div>
